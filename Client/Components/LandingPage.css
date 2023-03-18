@@ -1,0 +1,39 @@
+.containerLP {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.h1LP {
+  display: block;
+  font-family: fearce, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+  animation: typing 2s steps(22), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.containerLP ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}

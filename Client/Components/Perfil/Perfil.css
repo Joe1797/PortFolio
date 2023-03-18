@@ -1,0 +1,80 @@
+.containerPerfil {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.containerFotoP {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.containerFotoP img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.containerInfoP {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-width: auto;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: start;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.containerInfoP h2 {
+  text-align: center;
+  width: 600px;
+}
+
+.containerInfoP h3 {
+  text-align: center;
+  width: 600px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.containerInfoP span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.containerPSpan {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.containerPSpan button {
+  background-color: rgb(255, 255, 0);
+  padding: 8px;
+  border-radius: 10px;
+  color: rgb(255, 58, 58);
+  font-size: larger;
+  font-weight: 700;
+  transition: 2s;
+}
+
+.containerPSpan button:hover {
+  background-color: rgb(72, 127, 255);
+  padding: 8px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  transition: 2s;
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.containerApp {
+  margin: 0;
+  padding: 0;
+  min-height: calc(100vh - 1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

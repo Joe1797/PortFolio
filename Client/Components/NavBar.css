@@ -1,0 +1,61 @@
+.nav {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.containerImg {
+  position: absolute;
+  width: 70px;
+}
+
+.imgNav {
+  width: 100%;
+  float: left;
+  padding: 5px 0;
+  animation: 5s rotate linear infinite;
+}
+
+.imgNav:hover {
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.linkNav {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.ulNav {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 0.8rem;
+  background-color: rgb(54, 54, 54);
+  list-style: none;
+  padding: 5px 15px;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.ulNav li {
+  transition: 2s;
+}
+.ulNav li:hover {
+  color: rgb(255, 235, 21);
+  transition: 2s;
+}
